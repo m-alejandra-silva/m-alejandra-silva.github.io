@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    document.querySelectorAll('#nav ul li a').forEach(link => {
+        link.addEventListener('click', selecionar);
+    });
+
     const navResponsive = document.querySelector('.nav-responsive');
     if (navResponsive) {
         navResponsive.addEventListener('click', mostrarOcultarMenu);
