@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Portafolio Web</title>
     <link rel="stylesheet" href="style.css">
-    <script src="mi_script.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="contenedor-header">
         <header>
@@ -37,7 +39,8 @@
             <div class="redes">
                 <a href="https://www.instagram.com/_mar_ale_"><i class="fa-brands fa-instagram"></i></a>
                 <a href="mailto:mar.alejandra.silva@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-                <a href="https://www.facebook.com/share/RobdfhJ3mE9QbQav/?mibexitid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/share/RobdfhJ3mE9QbQav/?mibexitid=qi2Omg"><i
+                        class="fa-brands fa-facebook"></i></a>
             </div>
         </div>
     </section>
@@ -46,7 +49,8 @@
         <div class="contenido-seccion">
             <h2>Sobre mí</h2>
             <p><span>Hola, soy Alejandra Silva</span>, tengo 21 años y soy de Montevideo, Uruguay.</p>
-            <p>Esta es la primera vez que hago una página web y me enfoque en mostrar las cosas que me gustan, espero poder mejorarla a futuro.</p>
+            <p>Esta es la primera vez que hago una página web y me enfoque en mostrar las cosas que me gustan, espero
+                poder mejorarla a futuro.</p>
 
             <div class="fila">
                 <div class="col">
@@ -99,6 +103,7 @@
                             <div class="intereses">
                                 <i class="fa-solid fa-dog"></i>
                                 <span>Animales</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,7 +121,8 @@
                         <div class="item izquierda">
                             <span class="casa">Jóvenes a Programar</span>
                             <span class="fecha">2024</span>
-                            <p>Este año comencé en JAP por influencia de mi mejor amiga (la cual el año pasado hizo testing) y sin duda alguna fue de las mejores cosas que pude haber hecho</p>
+                            <p>Este año comencé en JAP por influencia de mi mejor amiga (la cual el año pasado hizo
+                                testing) y sin duda alguna fue de las mejores cosas que pude haber hecho</p>
                             <div class="conector">
                                 <div class="circulo"></div>
                             </div>
@@ -124,7 +130,8 @@
                         <div class="item derecha">
                             <span class="casa">Universidad de la República</span>
                             <span class="fecha">2021 - cursando</span>
-                            <p>En 2021 entre a la FCEA cursando una carrera, pero a principios del 2024 me cambié de carrera dentro de mi misma facultad</p>
+                            <p>En 2021 entre a la FCEA cursando una carrera, pero a principios del 2024 me cambié de
+                                carrera dentro de mi misma facultad</p>
                             <div class="conector">
                                 <div class="circulo"></div>
                             </div>
@@ -134,7 +141,8 @@
                         <div class="item izquierda">
                             <span class="casa">Anglo Unión</span>
                             <span class="fecha">2019 - 2024</span>
-                            <p>Este año estoy cursando first y si bien podría seguir avanzando, decidí que voy a retomar en unos años el inglés para conseguir un nivel más alto</p>
+                            <p>Este año estoy cursando first y si bien podría seguir avanzando, decidí que voy a retomar
+                                en unos años el inglés para conseguir un nivel más alto</p>
                             <div class="conector">
                                 <div class="circulo"></div>
                             </div>
@@ -142,7 +150,8 @@
                         <div class="item derecha">
                             <span class="casa">Instituto Macrosoft</span>
                             <span class="fecha">2020 - 2021</span>
-                            <p>Estudié portugués 2 años para perfeccionar mis conocimientos, ya que es un idioma con el que convivo por mi familia materna.</p>
+                            <p>Estudié portugués 2 años para perfeccionar mis conocimientos, ya que es un idioma con el
+                                que convivo por mi familia materna.</p>
                             <div class="conector">
                                 <div class="circulo"></div>
                             </div>
@@ -160,49 +169,49 @@
             <p>Fotos de conciertos y mi perro-hijo</p>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="fotos/simba.png" alt="Simba">
+                    <img src="fotos/simba.png" alt="Simba" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/simba.png')">
                     <div class="overlay">
                         <h3>Simba (mi perro/hijo)</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/no te va gustar.png" alt="NTVG">
+                    <img src="fotos/no te va gustar.png" alt="NTVG" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/no te va gustar.png')">
                     <div class="overlay">
                         <h3>No te va gustar 2023</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/cuarteto de nos.png" alt="Cuarteto de Nos">
+                    <img src="fotos/cuarteto de nos.png" alt="Cuarteto de Nos" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/cuarteto de nos.png')">
                     <div class="overlay">
                         <h3>Cuarteto de Nos 2023</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/Airbag.png" alt="Airbag">
+                    <img src="fotos/Airbag.png" alt="Airbag" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/Airbag.png')">
                     <div class="overlay">
                         <h3>Airbag 2023</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/María-Becerra.png" alt="María Becerra">
+                    <img src="fotos/María-Becerra.png" alt="María Becerra" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/María-Becerra.png')">
                     <div class="overlay">
                         <h3>María Becerra 2023</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/Mota.png" alt="Mota">
+                    <img src="fotos/Mota.png" alt="Mota" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/Mota.png')">
                     <div class="overlay">
                         <h3>Mota 2023</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/Trueno.png" alt="Trueno">
+                    <img src="fotos/Trueno.png" alt="Trueno" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/Trueno.png')">
                     <div class="overlay">
                         <h3>Trueno 2022</h3>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="fotos/Lali.png" alt="Lali">
+                    <img src="fotos/Lali.png" alt="Lali" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cargarImagen('fotos/Lali.png')">
                     <div class="overlay">
                         <h3>Lali 2022</h3>
                     </div>
@@ -210,23 +219,34 @@
             </div>
         </div>
     </section>
-    
 
-    <footer class="footer-style">
-    <a href="#inicio" class="arriba">
-        <i class="fa-solid fa-angle-up"></i>
-    </a>
-    <div class="redes">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-regular fa-envelope"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Imagen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" alt="Imagen seleccionada" id="modal-image" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
-<div id="modal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img class="modal-content" id="modal-image">
-</div>
-<script src="mi_script.js"></script>
 
+    <footer class="footer">
+        <div class="contenido-footer">
+            <p>&copy; 2024 Mi Portafolio Web. Todos los derechos reservados.</p>
+            <ul class="redes">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="mi_script.js"></script>
 </body>
+
 </html>
