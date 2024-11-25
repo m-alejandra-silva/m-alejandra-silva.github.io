@@ -55,15 +55,36 @@ a {
     color:#2bcad0;
 }
 
-.nav-responsive {
-    background-color: rgb(8, 233, 218);
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    position: absolute;
-    z-index: 100;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #00bcd4; /* Ajusta a tu color deseado */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Mayor contraste */
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px; /* Espaciado entre opciones */
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white; /* Cambiar a un color más visible */
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #ffeb3b; /* Un color de hover destacado */
 }
 
 @media (max-width: 768px) {
