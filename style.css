@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
 .contenedor-header {
     background: #21a7ac;
     position: fixed;
@@ -655,6 +659,13 @@ gap:15px;
     color: #21a7ac; 
 }
 
+#footer {
+    background-color: #b3fef6; 
+    color: #fff; /* Color de texto blanco */
+    padding: 20px;
+    text-align: center;
+}
+
 .footer-style {
     background-color: #b3fef6;
     color: #21a7ac;
@@ -669,7 +680,7 @@ footer .redes{
 }
 
 footer .redes a{
-    color:#21a7ac;
+    color: #21a7ac;
     display: inline-block;
     text-decoration: none;
     border: 1px solid #21a7ac;
@@ -679,7 +690,8 @@ footer .redes a{
     line-height: 42px;
     margin: 0px 5px;
     font-size: 20px;
-    transition: color 0.3s, background-color 0.3s; 
+    transition: color 0.3s, background-color 0.3s;
+    background-color: #fff; 
 }
 
 footer .redes a:hover {
