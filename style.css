@@ -16,7 +16,7 @@ a {
 }
 
 .contenedor-header {
-    background: #21a7ac;
+    background: #00bcd4;
     position: fixed;
     width: 100%;
     top: 0;
@@ -35,7 +35,7 @@ a {
 
 .contenedor-header header .logo a {
     font-size: 36px;
-    color: #b3fef6;
+    color: #aaedf2;
     text-decoration: none;
 }
 
@@ -45,15 +45,16 @@ a {
 }
 
 .contenedor-header header nav ul li a {
-    color: #b3fef6;
+    color: #2bcad0;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
 }
 
 .contenedor-header header nav ul li a:hover {
-    color:#2bcad0;
+    color:#aaedf2;
 }
+
 
 .navbar {
     display: flex;
@@ -64,15 +65,14 @@ a {
 }
 
 .navbar-brand {
-    background-color: #2bbec4;
-    color: #aaedf2;
+    background-color: #00bcd4;;
     padding: 20px; 
     text-align: center; 
 }
 
 .navbar-menu {
     display: flex;
-    gap: 20px; /* Espaciado entre opciones */
+    gap: 20px;
 }
 
 .navbar-menu a {
