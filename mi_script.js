@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    function selecionar() {
+    function seleccionar() {
         const links = document.querySelectorAll('#nav ul li a');
         links.forEach(link => {
             link.classList.remove('selected');
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelectorAll('#nav ul li a').forEach(link => {
-        link.addEventListener('click', selecionar);
+        link.addEventListener('click', seleccionar);  // Aquí solo debes agregar el evento sin llamar a 'seleccionar()' directamente
     });
 
     const navResponsive = document.querySelector('.nav-responsive');
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         img.addEventListener('click', () => openModal(img.src));
     });
 
-    const modalClose = document.querySelector('.modal .close');
+    const modalClose = document.querySelector('.modal .btn-close');
     if (modalClose) {
         modalClose.addEventListener('click', closeModal);
     }
