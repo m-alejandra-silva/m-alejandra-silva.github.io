@@ -60,14 +60,14 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #00bcd4; }
+    background-color: #00bcd4; 
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #2bbec4; 
-    text-decoration: none;
+    background-color: #2bbec4;
+    color: #aaedf2;
+    padding: 20px; 
+    text-align: center; 
 }
 
 .navbar-menu {
@@ -282,6 +282,7 @@ gap:15px;
     height: 120px;
     text-align: center;
     transition: 0.3s;
+    margin: 5px;
 }
 
 
@@ -682,9 +683,16 @@ gap:15px;
 
 #footer {
     background-color: #b3fef6; 
-    color: #fff; /* Color de texto blanco */
+    color: #aaedf2; 
     padding: 20px;
     text-align: center;
+}
+
+footer {
+    background-color: #2bbec4;
+    color: #aaedf2;
+    padding: 20px; 
+    text-align: center; 
 }
 
 .footer-style {
